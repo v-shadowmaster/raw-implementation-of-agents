@@ -1,0 +1,31 @@
+{
+  "name": "raw-implementation-of-agents",
+  "version": "1.0.0",
+  "description": "Implemention of ReAct agents without using any libraries or frameworks ",
+  "keywords": [
+    "ReAct",
+    "agents",
+    "typescript",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "license": "ISC",
+  "author": "Vinay Kumar",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev":"node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
+}
